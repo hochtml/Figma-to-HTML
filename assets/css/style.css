@@ -265,9 +265,6 @@ a {
 .popular .controls:hover {
   opacity: 0.8;
 }
-.popular .controls {
-  margin-right: 18px;
-}
 .popular .controls-btn {
   border: none;
   width: 40px;
