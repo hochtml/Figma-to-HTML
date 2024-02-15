@@ -356,3 +356,70 @@ a {
   min-width: 118px;
   line-height: 50px;
 }
+/* testimonial */
+.testimonial {
+  padding: 65px;
+  margin-top: 135px;
+  background: #2e2100;
+}
+.testimonial .testimonial-ground {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial .info {
+  width: 159px;
+  height: 188px;
+}
+.testimonial .ellipse {
+  width: 72px;
+  height: 72px;
+}
+.testimonial .name {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  color: #f7f7f7;
+  min-width: 130px;
+  min-height: 34px;
+  margin-top: 15px;
+}
+.testimonial .design {
+  font-size: 1.4rem;
+  line-height: 26px;
+  color: #bfbcb2;
+  min-width: 159px;
+  min-height: 26px;
+  margin-top: 5px;
+}
+.testimonial .icon {
+  min-width: 6px;
+  min-height: 6px;
+  color: #634700;
+  margin-top: 20px;
+}
+.testimonial .introduce {
+  position: relative;
+  min-width: 770px;
+  min-height: 188px;
+}
+.testimonial .heading {
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 40px;
+  text-align: left;
+  width: 740px;
+  height: 160px;
+  color: #ffffff;
+  padding-top: 35px;
+}
+.testimonial .vector {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  color: #634700;
+  min-width: 30px;
+  min-height: 28px;
+}
