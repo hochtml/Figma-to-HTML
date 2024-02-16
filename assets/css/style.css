@@ -402,8 +402,8 @@ a {
 }
 .testimonial .introduce {
   position: relative;
-  min-width: 770px;
-  min-height: 188px;
+  width: 770px;
+  height: 188px;
 }
 .testimonial .heading {
   font-size: 2.6rem;
@@ -422,4 +422,67 @@ a {
   color: #634700;
   min-width: 30px;
   min-height: 28px;
+}
+/* outcomes */
+.outcomes {
+  padding: 65px;
+  margin-top: 135px;
+}
+.outcomes .features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.outcomes .images {
+  display: flex;
+}
+.outcomes .rect {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+.outcomes .rect1 {
+  width: 270px;
+  height: 405px;
+  border-radius: 16px;
+  margin-top: -20px;
+}
+.outcomes .info {
+  width: 470px;
+  height: 322px;
+}
+.outcomes .heading {
+  height: 96px;
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #171100;
+}
+.outcomes .title {
+  min-width: 458px;
+  min-height: 84px;
+  font-size: 1.6rem;
+  line-height: 28px;
+  text-align: left;
+  color: #5f5b53;
+  margin-top: 15px;
+}
+.outcomes .label {
+  min-width: 458px;
+  min-height: 28px;
+  font-size: 1.6rem;
+  line-height: 28px;
+  text-align: left;
+  color: #5f5b53;
+  margin-top: 15px;
+}
+.outcomes .btn-sign-up {
+  width: 137px;
+  height: 50px;
+  color: #ffffff;
+  background: #ffb900;
+  margin-top: 20px;
 }
