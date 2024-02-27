@@ -23,6 +23,15 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.heading-lv2 {
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  text-align: left;
+  color: #171100;
+  letter-spacing: -0.76px;
+}
 .btn {
   display: inline-block;
   min-width: 118px;
@@ -392,16 +401,23 @@ a {
   margin-top: 135px;
   background: #2e2100;
 }
-.feedback .feedback-item {
+.feedback-list {
   display: flex;
+  overflow: hidden;
 }
-.feedback .info .avatar {
+
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+}
+.feedback-item .avatar {
   width: 72px;
   height: 72px;
   object-fit: over;
   border-radius: 50%;
 }
-.feedback .info .name {
+.feedback-item .info .name {
   margin-top: 18px;
   font-family: var(--font-heading);
   font-size: 2.4rem;
@@ -418,7 +434,7 @@ a {
 .feedback .info .dots {
   display: flex;
   gap: 6px;
-  margin-top: 25px;
+  margin-top: 28px;
   cursor: pointer;
 }
 .feedback .info .dot {
@@ -431,13 +447,167 @@ a {
   background: var(--primary-color);
   cursor: default;
 }
-.feedback .content {
-  width: 67%;
+.feedback-item .content {
+  width: 66%;
   margin-left: auto;
 }
-.feedback blockquote {
+.feedback-item blockquote {
   font-size: 2.6rem;
   font-style: italic;
-  line-height: 40px;
+  line-height: 1.54;
   color: #ffff;
+}
+/* Features */
+.features {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+.features .images img {
+  object-fit: cover;
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+}
+.features .clower {
+  margin-top: 34px;
+}
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.features .desgn {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.features .cta-sing-up {
+  width: 137px;
+  height: 50px;
+  margin-top: 32px;
+  border-radius: 26px;
+  background: var(--primary-color);
+}
+/* /* ==========Features2========== */
+.features2 {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.features2 .body {
+  display: flex;
+  justify-content: space-between;
+}
+.features2 .content {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.features2 .desgn {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.features2 .btn-join-now {
+  width: 137px;
+  margin-top: 32px;
+  height: 50px;
+  border-radius: 26px;
+  background: var(--primary-color);
+}
+
+/* ==========blog==========*/
+.blog {
+  padding: 96px 0;
+  margin-top: 135px;
+  background: #fffcf4;
+}
+.blog .information {
+  text-align: center;
+}
+.blog .information .title {
+  color: #130606;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+.blog .information .desgn {
+  color: #696262;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  margin: 16px auto 0;
+  width: 448px;
+}
+.blog .blog-item {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+}
+.blog .info .images {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  object-fit: cover;
+}
+.blog .blog-ground {
+  margin: 20px 20px 28px;
+}
+.blog .blog-ground .body {
+  display: flex;
+  align-items: center;
+}
+.blog .blog-ground .icon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.blog .blog-ground .calendar {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.blog .blog-ground .degsn {
+  color: #171100;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75;
+  margin-top: 25px;
+}
+.blog .blog-ground .btn-read-more {
+  width: 118px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 12px;
+  padding: 0;
+}
+.blog .blog-ground .btn-read-more:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  background: var(--primary-color);
+}
+.blog .blog-item .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 25px;
+  cursor: pointer;
+  background: #5f5b53;
+}
+.blog .blog-item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 25px;
 }
